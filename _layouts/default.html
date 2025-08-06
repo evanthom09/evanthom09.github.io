@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - evanthom.com</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/x-icon" href="{{ site.url }}/assets/favicon.ico?">
+  </head>
+  <body>
+    <header>
+      {% include navbar.html %}
+    </header>
+    <hr>
+    <section>
+      {{ content }}
+    </section>
+    <hr>
+    <footer>
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>

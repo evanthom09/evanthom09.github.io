@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: system-ui;
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+hr {
+    width: 100%;
+}
+
+/* Navigation bar */
+
+header {
+    margin: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    flex-direction: row;
+    align-content: center;
+    margin-right: 2rem;
+}
+
+.headerlink {
+    font-size: 32px;
+}
+
+/* Content */
+
+h1 {
+    font-size: 48px;
+    margin: auto;
+}
+
+section {
+    margin-left: 1rem;
+    height: auto;
+    flex: 1 0 auto;
+}
+
+/* Blog */
+
+.pagination {
+  display: flex;
+  justify-content: center; /* This will center the page number block */
+  align-items: center;
+  position: relative;
+}
+
+.previous {
+  position: absolute;
+  right: 50%; 
+  margin-right: 2rem;
+}
+
+.next {
+  position: absolute;
+  left: 50%; 
+  margin-left: 2rem;
+}
+
+/* Footer */
+
+footer {
+    margin-left: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
